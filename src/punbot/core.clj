@@ -60,6 +60,9 @@
   (swap! app (constantly {}))
   (start-punbot app))
 
+(defn -main []
+  (let [app (create-punbot)] (start-punbot app)))
+
 ; to send a msg,
 ; (ws/send-msg socket (json/write-str {:id 1, :type "message", :channel "C0FQU3QHE", :text "hello, rtm api!"}))
 

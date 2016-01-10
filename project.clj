@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [clj-http "2.0.0"]
                  [stylefruits/gniazdo "0.4.1"]
-                 [org.clojure/data.json "0.2.6"]])
+                 [org.clojure/data.json "0.2.6"]]
+  :main punbot.core)
